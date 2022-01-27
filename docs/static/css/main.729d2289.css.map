@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.729d2289.css","mappings":"AAAA,KACI,YACJ,CACA,SACI,YAAa,CACb,4BAA6B,CAE7B,kBAAmB,CADnB,UAEJ","sources":["style.css"],"sourcesContent":["body {\r\n    padding: 90px;\r\n}\r\n.btn-box {\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    width: 100%;\r\n    margin-bottom: 15px;\r\n}"],"names":[],"sourceRoot":""}
