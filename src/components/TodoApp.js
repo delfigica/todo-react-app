@@ -46,15 +46,15 @@ export const TodoApp = () => {
       <h1 className="text-center">ToDo React app ({todos.length})</h1>
       <hr />
       <div className="row">
+        <div className="col-5">
+            <TodoForm handleAddTodo={handleAddTodo}/>
+        </div>
         <div className="col-7">
           <TodosList
             todos={todos}
             handleDelete={handleDelete}
             handleCheck={handleCheck}
           />
-        </div>
-        <div className="col-5">
-            <TodoForm handleAddTodo={handleAddTodo}/>
         </div>
       </div>
     </div>
