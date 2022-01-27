@@ -1,0 +1,9 @@
+body {
+    padding: 90px;
+}
+.btn-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 15px;
+}
